@@ -4,6 +4,8 @@ import { CssBaseline } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles'
 import Background from './assests/bg.jpg'
 import Header from './components/Header';
+import Service from './components/Service';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +24,8 @@ const classes = useStyles();
     <div className={classes.root}>
       <CssBaseline />
       <Header />
+      <Service />
+  
     </div>
   );
 }
