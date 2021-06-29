@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   secondaryColor: {
-    color: '#F1B0A7'
+    color: '#F1B0A7' 
   },
 
   title: {
