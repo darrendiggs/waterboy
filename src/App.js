@@ -3,6 +3,7 @@
 import { CssBaseline } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles'
 import Background from './assests/bg.jpg'
+import Calculator from './components/calculator';
 import Header from './components/Header';
 import Info from './components/info';
 import Service from './components/Service';
@@ -29,6 +30,7 @@ function App() {
         <Service />
       </div>
       <Info />
+      <Calculator />
     </div>
   );
 }

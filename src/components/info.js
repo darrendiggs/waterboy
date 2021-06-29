@@ -11,22 +11,23 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '50vh',
-    backgroundColor: '#060E06'
+    backgroundColor: '#060E06',
+    fontFamily: 'Nunito'
   },
   secondaryColor: {
-    color: '#F1B0A7'
+    color: '#F1B0A7',
   },
   gridItem: {
-    width: '80%',
+    width: '80%', 
     margin: 'auto',
-    padding: '20px'
+    padding: '20px',
   },
   accordion: {
-    backgroundColor: '#F1B0A7'
+    backgroundColor: '#F1B0A7',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular,
+    fontFamily: 'Nunito'
   },
 }));
 
@@ -46,7 +47,7 @@ function Info() {
         className={classes.gridItem}
       >
 
-        <h1 className={classes.secondaryColor}>frequently asked questions</h1>
+        <h1 className={classes.secondaryColor}>Frequently Asked Questions</h1>
 
         <Accordion >
           <AccordionSummary

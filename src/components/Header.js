@@ -83,7 +83,7 @@ function Header() {
         </Toolbar>
       </AppBar>
 
-      <LightSpeed bottom cascade duration={2000}>
+      <LightSpeed bottom cascade duration={3000}>
         <div className={classes.title}>
           <h1>
             hi, i'm your <br />

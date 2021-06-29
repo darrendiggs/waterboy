@@ -1,11 +1,20 @@
 
+import { makeStyles } from '@material-ui/core/styles'
 
-function calculator() {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    minHeight:'50vh',
+    backgroundColor: 'black'
+  }
+}))
+
+function Calculator() {
+  const classes = useStyles();
   return (
-    <div>
+    <div className={classes.root}>
       
     </div>
   )
 }
 
-export default calculator
+export default Calculator
